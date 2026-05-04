@@ -1,6 +1,9 @@
 name: Generate snake
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
